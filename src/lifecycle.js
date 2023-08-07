@@ -4,8 +4,9 @@ class Lifecycle extends React.Component{
     constructor(){
         super();
         this.state={message:'this page welcomes you',message2:'hello bob',showalert:true}
-       
+      
     }
+   
     // UNSAFE_componentWillMount(){
     //    alert('this function runs before the render method')
     // }

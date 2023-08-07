@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 function Test(){
     const[data,setdata]=useState('posts');
     const[item,setItem]=useState([]);
-    console.log('useState')
+    // console.log('useState')
 
     useEffect(()=>{
         fetch(`https://jsonplaceholder.typicode.com/${data}`)
@@ -16,7 +16,7 @@ function Test(){
     },[data])
     return(
      <React.Fragment>
-        {console.log('div')}
+        {/* {console.log('div')} */}
       <button onClick={()=>setdata('posts')}>post</button>
       <button onClick={()=>setdata('comments')}>comments</button>
       <button onClick={()=>setdata('users')}>users</button>

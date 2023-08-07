@@ -3,17 +3,17 @@ import ReactDOM from 'react-dom/client';
 // import App from './App';
 // import Heading from './hook';
 import reportWebVitals from './reportWebVitals';
-// import Lifecycle from './lifecycle';
+import Lifecycle from './lifecycle';
 // import Counter from './useEffect';
-import Test from './test';
+// import Test from './test';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     //  <App/>
     // <Heading/>
-    // <Lifecycle/>
+    <Lifecycle/>
     // <Counter/>
-    <Test/>
+    // <Test/>
 );
 
 // If you want to start measuring performance in your app, pass a function
