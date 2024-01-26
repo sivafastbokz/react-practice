@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 // import App from './App';
 // import Heading from './hook';
 import reportWebVitals from './reportWebVitals';
-import Lifecycle from './lifecycle';
+// import Lifecycle from './lifecycle';
+import Form from './form';
 // import Counter from './useEffect';
 // import Test from './test';
 
@@ -11,7 +12,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     //  <App/>
     // <Heading/>
-    <Lifecycle/>
+    // <Lifecycle/>
+    <Form/>
     // <Counter/>
     // <Test/>
 );
